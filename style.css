@@ -1,0 +1,120 @@
+.contenedor {
+	position: relative;
+	width: 100%;
+}
+}
+*{
+	box-sizing: border-box;
+}
+p {
+	font-family: helvetica	, sans-serif;
+	color: #00BFFF;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	text-transform: capitalize;
+}
+#section1 {
+	background-color: yellow;
+	width: 32.3% ;
+	float: left;
+	border:  1px solid black;
+	overflow: auto;
+	position: relative;
+	margin: 5px;
+}
+#section2 {
+	background-color:  saddlebrown;
+	width: 32.3%;
+	float: left;
+	border:  1px solid black;
+	overflow: auto;
+	position: relative;
+	margin: 5px;
+}
+#section3 {
+	background-color: gray;
+	width: 32.3%;
+	float: left;
+	border:  1px solid black;
+	overflow: auto;
+	position: relative;
+	margin: 5px;
+}
+header{
+	font-family: initial;
+	color: #A42968;
+	font-style: italic;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 25px;
+}
+@media (min-width: 992px),{
+	#section1{
+		width: 31.5%;
+	}
+	#section2{
+		width: 31.5%;	
+	}
+	#section3{
+		width: 31.5%;
+	}
+}
+@media	(min-width: 768px) and	(max-width: 991px){
+	#section1{
+		width: 48.5%;
+	}
+	#section2{
+		width: 48.5%;
+	}
+	#section3{
+		width: 98.5%;
+	}
+}
+@media (max-width: 767px),{
+	#section1{
+		width: 60%;
+		clear: both;
+	}
+	#section2{
+		width: 60%;
+		clear: both;
+	}
+	#section3{
+		width: 60%;
+		clear: both;
+	}
+}
+#Pollo {
+	width: 80px;
+	height: 50px;
+	background-color: blueviolet;
+	border: .5px solid black;
+	position: relative;
+	float: right;
+}
+#Carne {
+	width: 80px;
+	height: 50px;
+	background-color: red;
+	border: .5px solid black;
+	position: relative;
+	float: right;
+	float: top;
+}	
+#Sushi {
+	width: 80px;
+	height: 50px;
+	background-color: green;
+	border: .5px solid black;
+	position: relative;
+	float: right;
+	float: top;
+}
+.texto {
+	position: relative;
+	clear: both;
+}
